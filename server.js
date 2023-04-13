@@ -11,9 +11,9 @@ app.use(express.json());
 
 
 
-app.get("/",(req,res)=>{
-  res.send("Welcome to eShop website")
-})
+// app.get("/",(req,res)=>{
+//   res.send("Welcome to eShop website")
+// })
 
 //static file
 app.use(express.static(path.join(__dirname,'./build')))
